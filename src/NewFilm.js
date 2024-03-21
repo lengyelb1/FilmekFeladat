@@ -27,8 +27,8 @@ export default function NewFilm(props) {
             >
                 <label for="nev">Nev</label>
                 <input className="form-control" id="nev" type="text" name="nev"/>
-                <label for="kepneve">Kepneve</label>
-                <input className="form-control" id="kepneve" type="text" name="kepneve"/>
+                <label for="kepneve">Kep</label>
+                <input className="form-control" id="kepneve" type="file" name="kepneve"/>
                 <label for="kiadasEve">KiadasEve</label>
                 <input className="form-control" id="kiadasEve" type="number" name="kiadasEve"/>
                 <label for="ertekeles">Ertekeles</label>
