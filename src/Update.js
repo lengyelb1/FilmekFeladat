@@ -36,6 +36,7 @@ export default function Update(props) {
                             ertekeles: event.target.elements.ertekeles.value
                         })
                     })
+                    .finally(() => alert("Sikeres Frissítés!"))
                 }}
             >
                 <label for="nev">Nev</label>

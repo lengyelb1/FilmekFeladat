@@ -23,6 +23,7 @@ export default function NewFilm(props) {
                             ertekeles: parseInt(event.target.ertekeles.value)
                         })
                     })
+                    .finally(() => alert("Sikeres Feltöltés!"))
                 }}
             >
                 <label for="nev">Nev</label>
